@@ -28,8 +28,9 @@ There is currently support for the following device types within Home Assistant:
 - [Sensor](#sensor)
 
 ## Setup
-
-Go to [developer.tibber.com/settings/accesstoken](https://developer.tibber.com/settings/accesstoken) to get your API token.
+First, connect your Tibber Pulse device to your electricity meter as described in your Tibber App (Android or iPhone), and verify that it is connected to your Tibber account and gives correct readings in the App before you move on.
+Then, go to [developer.tibber.com/settings/accesstoken](https://developer.tibber.com/settings/accesstoken) and log on using the same email address as you use for your Tibber account, in order to get your API token.
+The integration will automatically be linked to the electricity meter where your Tibber Pulse device is connected when you paste the API token into the integration setting in Home Assistant.
 
 {% include integrations/config_flow.md %}
 
