@@ -32,7 +32,7 @@ Automation rules interact directly with the internal state of Home Assistant, so
 | Name | Description | Example |
 | ---- | ----- | ---- |
 | Entity ID | Unique identifier for the entity. | `light.kitchen`
-| State | The current state of the device. | `home`
+| State | The current state of the device. | `on`
 | Attributes | Extra data related to the device and/or current state. | `brightness`
 
 State changes can be used as the source of triggers and the current state can be used in conditions.
